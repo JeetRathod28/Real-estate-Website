@@ -1,12 +1,65 @@
-# React + Vite
+# Real Estate Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive single-page real estate landing website built with **React**, **Tailwind CSS**, and **Framer Motion**.  
+Showcase projects, highlight testimonials, capture leads, and deliver a stunning animated user experience.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Design:** Seamless viewing across devices using Tailwind CSS utility classes.
+- **In-Page Smooth Navigation:** Anchor navigation scrolls smoothly to Home, About, Projects, Testimonials, and Contact sections.
+- **Animated Sections:** Framer Motion powers engaging entrance animations as you scroll.
+- **Project Carousel:** Custom slider for featured projects with smooth controls.
+- **Contact Form:** Integrated with Web3Forms serverless backend and real-time toasts.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Project Structure
+```
+src/
+├── assets/
+│ └── assets.js
+├── components/
+│ ├── About.jsx
+│ ├── Contact.jsx
+│ ├── Footer.jsx
+│ ├── Header.jsx
+│ ├── NavBar.jsx
+│ ├── Projects.jsx
+│ └── Testimonials.jsx
+├── App.jsx
+└── main.jsx
+```
+
+## ⚡ Getting Started
+
+1. **Clone this repo**
+    ```
+    git clone https://github.com/JeetRathod28/Real-estate-Website
+    cd real-estate-landing
+    ```
+
+2. **Install dependencies**
+    ```
+    npm install
+    ```
+
+3. **Configure Environment**
+   - Create a `.env` file in your project root:
+        ```
+        VITE_WEBFORM=your-web3forms-access-key
+        ```
+
+4. **Start the development server**
+    ```
+    npm run dev
+    ```
+
+
+## 🧩 Technologies
+
+- [React](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Vite](https://vitejs.dev/)
+- [Web3Forms](https://web3forms.com/) (Contact form backend)
+
+
